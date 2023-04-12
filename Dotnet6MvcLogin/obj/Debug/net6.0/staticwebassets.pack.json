@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\99899\\Desktop\\DemoProjectsFromGithub\\Dotnet6-Mvc-Login\\Dotnet6MvcLogin\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Dotnet6MvcLogin.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Dotnet6MvcLogin.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\99899\\Desktop\\DemoProjectsFromGithub\\Dotnet6-Mvc-Login\\Dotnet6MvcLogin\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\99899\\Desktop\\DemoProjectsFromGithub\\Dotnet6-Mvc-Login\\Dotnet6MvcLogin\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Dotnet6MvcLogin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Dotnet6MvcLogin.props",
+      "PackagePath": "build\\Dotnet6MvcLogin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Dotnet6MvcLogin.props",
+      "PackagePath": "buildMultiTargeting\\Dotnet6MvcLogin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Dotnet6MvcLogin.props",
+      "PackagePath": "buildTransitive\\Dotnet6MvcLogin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

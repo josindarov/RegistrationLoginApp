@@ -1,0 +1,38 @@
+﻿@using Dotnet6MvcLogin.Models.Domain
+@using Dotnet6MvcLogin.Repositories.Abstract
+@model IQueryable<ApplicationUser>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Last Login Time</th>
+            <th>Registration Time</th>
+            <th>Status</th>
+            <th><button>Delete</button></th>
+            <th><button>Block</button></th>
+            <th><button>Unblock</button></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><input type="checkbox" /></td>
+                <td>@item.Id</td>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.Email</td>
+                <td>@item.LoginTime</td>
+                <td>@item.RegistrationTime</td>
+                <td>@item.UserStatus</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
